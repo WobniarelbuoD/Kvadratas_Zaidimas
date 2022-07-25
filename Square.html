@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Square Game</title>
+
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+<link href="Off.css" rel="stylesheet">
+
+</head>
+<body class="Backy">
+
+    <table class=" table table-warning">
+        <thead>
+        <tr>
+            <th scope="col">Round</th>
+            <th scope="col">Player</th>
+            <th scope="col">Square</th>
+            <th scope="col">Winner</th>
+        </tr>
+    </thead>
+
+    <tbody  id="Stalas">
+
+    </tbody>
+    </table>
+
+<div class="container d-flex justify-content-center">
+<h1 id="entitled">Will you fight fair and "SQUARE" :)?</h1>
+<button id="Start" onclick="Pradzia()">START</button>
+<div id="Square" onclick="Clicker()"><img id="Egg" src="Eggsplotion.png" alt=Eggsplotion></div>
+
+<table id="Timing">
+    <tr>
+        <th>Round Timer</th>
+    </tr>
+    <td id="Time">30</td>
+</table>
+
+<table id="Timing2">
+    <tr>
+        <th>Next Round</th>
+    </tr>
+    <td id="NextRound">5</td>
+</table>
+
+</div>
+
+
+    <script src="Game.js"></script>
+</body>
+</html>
